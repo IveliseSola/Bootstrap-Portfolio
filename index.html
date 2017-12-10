@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">  
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
     <title>Bio</title>
 </head>
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <!-- <a class="navbar-brand" href="#">Ivelise Sola</a> --> Ivelise Sola
+          <div class="navbar-header nav-name-container">
+            <!-- <a class="navbar-brand nav-name" href="#" style="color:#fff;">Ivelise Sola</a>  -->
+            <h1 class="text-center">Ivelise Sola</h1>
           </div>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right nav-links">
             <li><a href="#">About</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
@@ -24,30 +25,32 @@
     </nav>
 
     <section class="container"> 
-        <div class="row">
-            <div class="col-md-8">
-                <h2> About Me </h2>
-                <br>
-                <!-- <hr> -->
-                <img src="assets/images/bio-photo.jpg" alt="Photo perfil">
-                <p> Ivelise Sola grew up in Havana, Cuba. Like all Cubans, she loves music, food, and dancing, but unlike most, she was actually a dancer turned software developer (work in progress). She is a good team player interested and focused on understanding and building infrastructures to optimize workflows. 
+        <div class="row" style="padding-top:70px;">
+            <div class="col-md-7 panel panel-default bio">
+                <h2 class="page-header"> About Me </h2>
+                <img src="assets/images/bio-photo.jpg" alt="Photo perfil" id="photo-perfil" class="pull-left">
+                <p class="bio-paragraph lead"> Ivelise Sola grew up in Havana, Cuba. Like all Cubans, she loves music, food, and dancing, but unlike most, she was actually a classical dancer turned software developer (work in progress). She likes traveling, she has visited different cities across the US and plans to visit Europe in the near future. </p>
+                <p class="lead"> Since coming to the US in 2015, Ivelise has focused on learning the language to accomplish the goal of becoming a software developer. After working as a computer security specialist in Cuba, she felt right at home in the tech industry. </p>
+                <p class="lead"> She decided to enroll in the UNCC Coding Bootcamp and start her path to becoming a web developer. She's determined to succeed in this endeavor and perfect her coding skills in these six months and beyond.
                 </p>
             </div>
-
-            <aside class="col-md-4">
-                <h3> Connect with me</h3>
-                <a href="https://github.com/IveliseSola" target="_blank"> <img src="assets/images/github.png" alt="GitHub"> </a>
-                <a href="https://www.linkedin.com/in/ivelisesola" target="_blank"> <img src="assets/images/linkedin.png" alt="LinkeIn"> </a>
-                <a href="https://stackoverflow.com/users/8514176/i-sola" target="_blank"> <img src="assets/images/overflow.png" alt="Stack Overflow"> </a>
+            <div class="col-md-1"></div>
+            <aside class="col-md-3 panel panel-default social-media text-center">
+                <div class="page-header"> 
+                    <h3> Connect with me </h3> 
+                </div>
+                <div>
+                    <a href="https://github.com/IveliseSola" target="_blank"> <img src="assets/images/github.png" alt="GitHub"> </a>
+                    <a href="https://www.linkedin.com/in/ivelisesola" target="_blank"> <img src="assets/images/linkedin.png" alt="LinkeIn"> </a>
+                    <a href="https://stackoverflow.com/users/8514176/i-sola" target="_blank"> <img src="assets/images/overflow.png" alt="Stack Overflow"> </a>
+                </div>
             </aside>
         </div>
     </section> 
     
-        <footer class="container">
-            <div class="row">
-                 <div class="col-md-12">
-                        <p> &#9400; Copyright 2017 Ivelise Sola </p>
-                 </div>
+        <footer>
+            <div class="container"> 
+                <p> &#9400; Copyright 2017 Ivelise Sola </p>
             </div>
         </footer>
     
