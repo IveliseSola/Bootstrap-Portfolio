@@ -44,7 +44,7 @@ h3 {
      line-height: 145%; 
  } 
 
- .nav-name-container {
+.nav-name-container {
     position: relative;
     left: 116px;
     width: 250px;
@@ -61,29 +61,29 @@ h3 {
 
 .bio p { text-align: justify; }
 
-
-    
-
-
 .social-media img{
-    height: 60px;
+    height: 70px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
 
 .social-media a { text-decoration: none; }
 
+.portfolio-img { 
+    background-image: url(../images/portfolio.jpg);
+    height: 150px;
+    width: 250px;
+ }
+
+ 
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #0e0101;
+    background-color: #666666;
   }
-
-footer {
-   background-color: #666666;
-}
 
 footer p {
     color: #ffffff;
