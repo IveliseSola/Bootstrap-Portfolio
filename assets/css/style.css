@@ -74,7 +74,9 @@ h3 {
 
 .bio p { text-align: justify; }
 
-/* Aside Contact */
+#bio-p { padding-left:250px; }
+
+/* Aside Connect */
 
 .social-media img{
     height: 70px;
@@ -143,4 +145,9 @@ footer p {
         display: inline-block;
         margin-left: 2px;
     }
+
+    #bio-p{
+        padding-left: 0;   
+    }
 }
+ 
