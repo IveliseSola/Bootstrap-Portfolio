@@ -129,3 +129,18 @@ footer p {
     padding-top: 15px;
     font-size: 14px;
 }
+
+/* Queries */
+
+@media only screen and (max-width: 850px) {
+    .nav-name-container {
+        left:1px;
+    }
+
+    .nav-links { position: static;}
+
+    .nav-links li{
+        display: inline-block;
+        margin-left: 2px;
+    }
+}
